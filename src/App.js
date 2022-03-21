@@ -80,7 +80,7 @@ function App() {
       <h1 className='welcome'>Welcome: {user.get("username")}</h1>
       <h2 className='balance'>Contract Balance: {balance} Wei </h2>
       <div className='donate'>
-        <button className='donate-btn' onClick={() => donate(0.01)}>Donate .1 ETH</button>
+        <button className='donate-btn' onClick={() => donate(0.01)}>Donate .01 ETH</button>
         <button className='donate-btn' onClick={() => value()}>Get Contract Balance</button>
       </div>
     </div>
